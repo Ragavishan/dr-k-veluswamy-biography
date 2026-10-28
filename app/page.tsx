@@ -517,7 +517,7 @@ const topicForInstitution = (item: (typeof institutions)[number]) => {
           {/* CENTRE: BIOGRAPHY ARTICLE */}
           <article id="biography" className="min-w-0 scroll-mt-24">
             <h1 className="border-b border-[#dce2e9] pb-4 font-serif text-3xl font-semibold tracking-tight text-[#17324d] sm:text-4xl lg:text-[2.75rem]">
-              Dr. K. Veluswamy
+              Dr. K. VELUSWAMY
             </h1>
             <blockquote className="mt-5 ml-auto w-fit max-w-full rounded-l-md border-r-4 border-[#c9a96e] bg-gradient-to-l from-[#f5efe3] to-[#fbfaf7] px-5 py-4 font-serif text-base italic leading-7 text-[#24364b] shadow-sm sm:text-lg whitespace-pre-line">
               {language === "ta"
@@ -802,12 +802,6 @@ const topicForInstitution = (item: (typeof institutions)[number]) => {
           </aside>
         </div>
       </div>
-
-      <footer className="mt-12 border-t border-[#e2e8f0] bg-white px-4 py-7 text-xs leading-6 text-[#64748b]">
-        <div className="mx-auto w-full max-w-[1440px] px-0 sm:px-2 lg:px-4">
-          {t("footer")}
-        </div>
-      </footer>
 
       <StoryModal topic={activeTopic} language={language} onClose={closeTopic} />
       {activeFamily && (
