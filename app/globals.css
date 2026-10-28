@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #08182c;
+  --navy-soft: #10263e;
+  --gold: #c9a96e;
+  --gold-light: #ead8b2;
+  --ivory: #f5f2eb;
+  --ink: #182335;
+  --muted: #697586;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+::selection { background: #ead8b2; color: #08182c; }
+.serif { font-family: Georgia, "Times New Roman", serif; }
+.gold-rule {
+  width: 54px; height: 2px; background: var(--gold);
+}
+.story-link {
+  display: inline;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #2468b4;
+  text-decoration: underline;
+  text-decoration-color: #b4cbea;
+  text-underline-offset: 4px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  transition: color .2s ease, text-decoration-color .2s ease;
+}
+.story-link:hover, .story-link:focus-visible {
+  color: #0b3c79;
+  text-decoration-color: #0b3c79;
+  outline-offset: 3px;
+}
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise-in { animation: riseIn .7s ease both; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
