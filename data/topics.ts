@@ -49,7 +49,7 @@ export const topics: Record<string, StoryTopic> = {
   palani: {
     id: "palani", eyebrow: "A CAREER BEGINS", title: "Medical Practice in Palani", year: "1983",
     description: "Dr. Veluswamy returned to his hometown and began medical practice in Palani in 1983. K.V. Hospital later developed into a 100-bedded multispecialty hospital.",
-    image: "/images/palani-hospital.jpg",
+    image: "/images/palani-clinic.jpg",
     translations: {
       en: { eyebrow: "A CAREER BEGINS", title: "Medical Practice in Palani", year: "1983", description: "Upon completing his advanced postgraduate medical education at India's premier institution, AIIMS, New Delhi, Dr. K. Veluswamy chose to forgo the lucrative opportunities of metropolitan cities to serve the rural communities of his homeland, marking the inception of his medical career in Palani. In the late 1980s, alongside the renowned gynecologist Dr. S. Chandralekha, he established 'K.V. Hospital' and the foundation of Iswarya Fertility Centre on Palani's Dindigul Road, breaking the prevailing social stigmas around infertility by introducing South India's pioneering IVF and IUI technologies at an affordable cost. Through his compassionate approach, gentle smile, and exceptional clinical expertise, he transformed Palani K.V. Hospital into a premier fertility landmark sought after across Tamil Nadu. This dedicated medical service, which began as a humble seed in the sacred soil of Palani, ultimately served as the cornerstone for the grand national healthcare legacy that lights up the lives of lakhs of families today.",},
       ta: { eyebrow: "மருத்துவப் பணி தொடக்கம்", title: "பழனியில் மருத்துவப் பணி", year: "1983", description: "டாக்டர் கே. வேலுச்சாமி அவர்கள் புதுடெல்லி எய்ம்ஸ் (AIIMS, New Delhi) போன்ற நாட்டின் மிக உயரிய கழகத்தில் தனது உயர்தர முதுகலை மருத்துவப் படிப்பை முடித்த கையோடு, பெருநகரங்களின் பகட்டுகளைத் தேர்ந்தெடுத்துச் செல்லாமல், தான் வளர்ந்த பழனி மண்ணின் கிராமப்புற மக்களுக்குச் சேவை செய்ய விரும்பி தனது ஆரம்பகால மருத்துவப் பணியைத் தொடங்கினார். 1980-களின் பிற்பகுதியில் பழனியின் திண்டுக்கல் சாலையில் புகழ்பெற்ற மகளிர் மருத்துவ நிபுணர் டாக்டர் எஸ். சந்திரலேகா அவர்களுடன் இணைந்து 'கே.வி. மருத்துவமனை' மற்றும் ஐஸ்வர்யா கருத்தரிப்பு மையத்தை (Iswarya Fertility Centre) மிக எளிய முறையில் தோற்றுவித்த அவர், அக்காலகட்டத்தில் கருவுறாமை குறித்து நிலவிய சமூக மூடநம்பிக்கைகளை உடைத்து, தென்னிந்தியாவின் மிக முன்னோடியான நவீன IVF மற்றும் IUI சிகிச்சை தொழில்நுட்பங்களை பழனி மக்களுக்கு மிகக் குறைந்த செலவில் அறிமுகப்படுத்தினார். தனது அன்பான அணுகுமுறையாலும், கனிவான புன்னகையாலும், அசாத்திய கைராசியாலும் பழனி கே.வி. மருத்துவமனையை ஒட்டுமொத்த தமிழகமே உற்றுநோக்கும் ஒரு முதன்மை மகப்பேறு தலமாக மாற்றியதோடு மட்டுமன்றி, பழனி என்ற புனித மண்ணில் ஒரு எளிய விதையாகத் தொடங்கப்பட்ட இவரது இந்த அர்ப்பணிப்புமிக்க மருத்துவப் பணிதான், இன்று லட்சக்கணக்கான குடும்பங்களின் வாழ்வில் தாய்மை ஒளியேற்றும் ஒரு பிரம்மாண்ட தேசிய மருத்துவச் சாம்ராஜ்யமாக வளர்ந்து நிற்பதற்குக் காரணியாக அமைந்தது."},
@@ -283,28 +283,7 @@ export const familyProfiles = {
       hi: "भले ही देर हो जाए, निराश होने की आवश्यकता नहीं; “आपको भी एक संतान होगी” — इसी विश्वास का पता!",
     },
   },
-  aravind: {
-    name: {
-      en: "Dr. Aravind Chandar",
-      ta: "டாக்டர் அரவிந்த் சந்தர்",
-      hi: "डॉ. अरविंद चंदर",
-    },
-    role: {
-      en: "Elder son",
-      ta: "மூத்த மகன்",
-      hi: "बड़े पुत्र",
-    },
-    description: {
-      en: "Dr. Aravind Chandar is described as the elder son of the family. He received postgraduate training in general surgery and specialised training related to in vitro fertilisation (IVF), including in London. Dr. Aravind's IVF is reported to have more than 30 branches and to have achieved a Guinness World Records-related distinction in 2019.",
-      ta: "டாக்டர் அரவிந்த் சந்தர் குடும்பத்தின் மூத்த மகனாகக் குறிப்பிடப்படுகிறார். இவர் பொது அறுவை சிகிச்சையில் முதுகலைப் பயிற்சி பெற்றதுடன் லண்டன் உள்ளிட்ட இடங்களில் செயற்கைக் கருத்தரிப்பு (IVF) தொடர்பான சிறப்புப் பயிற்சிகளையும் பெற்றுள்ளார். டாக்டர் அரவிந்த்ஸ் IVF நிறுவனம் 3௦-க்கும் மேற்பட்ட கிளைகளைக் கொண்டுள்ளதாகவும் 2019 - ஆம் ஆண்டில் கின்னஸ் உலகச் சாதனையுடன் தொடர்புடைய சாதனையைப் படைத்த்துள்ளார்.&#x20;",
-      hi: "डॉ. अरविंद चंदर को परिवार का बड़ा बेटा बताया गया है। उन्होंने जनरल सर्जरी में स्नातकोत्तर प्रशिक्षण के साथ लंदन सहित विभिन्न स्थानों पर इन-विट्रो फर्टिलाइजेशन (IVF) से संबंधित विशेष प्रशिक्षण प्राप्त किया है। बताया गया है कि डॉ. अरविंद्स IVF की 30 से अधिक शाखाएँ हैं और 2019 में इसका गिनीज़ वर्ल्ड रिकॉर्ड्स से संबंधित एक उल्लेखनीय उपलब्धि से जुड़ाव रहा।",
-    },
-    quote: {
-      en: "The wondrous point where science and spiritual wisdom meet, the walking deity who makes it bloom on earth — the doctor.",
-      ta: "விஞ்ஞானமும் மெய்ஞானமும் இணையும் அற்புதப் புள்ளி,\nஅதை மண்ணில் மலரவைக்கும் நடமாடும் தெய்வம் மருத்துவர்",
-      hi: "वह अद्भुत बिंदु जहाँ विज्ञान और आध्यात्मिक ज्ञान मिलते हैं; वह चलते-फिरते देवतुल्य चिकित्सक जो इसे धरती पर साकार करते हैं।",
-    },
-  },
+
   arun: {
     name: {
       en: "Dr. Arun Muthuvel",
@@ -312,10 +291,11 @@ export const familyProfiles = {
       hi: "डॉ. अरुण मुथुवेल",
     },
     role: {
-      en: "Younger son",
-      ta: "இளைய மகன்",
-      hi: "छोटे पुत्र",
+      en: "Elder son",
+      ta: "மூத்த மகன்",
+      hi: "बड़े पुत्र",
     },
+
     description: {
       en: "Dr. Arun Muthuvel is described as the younger son. He has postgraduate qualifications in obstetrics and gynaecology and a master's qualification in reproductive medicine and surgery. He is the Managing Director of Iswarya Fertility Centre and is also involved in AI-based embryology monitoring.",
       ta: "டாக்டர் அருண் முத்துவேல் இளைய மகனாகக் குறிப்பிடப்படுகிறார். மகப்பேறு மற்றும் மகளிர் மருத்துவத்தில் முதுகலைப் படிப்பும் இனப்பெருக்க மருத்துவம் மற்றும் அறுவை சிகிச்சையில் மச் பட்டமும் பெற்றுள்ளார். ஐஸ்வர்யா பெர்ட்டிலிட்டி சென்டரின் Managing Director மற்றும் AI கருவியல் கண்காணிப்பிலும் சிறந்து விளங்குகின்றார்.",
@@ -327,6 +307,33 @@ export const familyProfiles = {
       hi: "मातृत्व की प्रतीक्षा कर रहे दिलों की तड़प एक अंधकार है; उसे दूर कर गर्भधारण की आशा जगाने वाले प्रकाशमान दीप हैं डॉक्टर!",
     },
   },
+
+
+  aravind: {
+    name: {
+      en: "Dr. Aravind Chandar",
+      ta: "டாக்டர் அரவிந்த் சந்தர்",
+      hi: "डॉ. अरविंद चंदर",
+    },
+
+    role: {
+      en: "Younger son",
+      ta: "இளைய மகன்",
+      hi: "छोटे पुत्र",    
+    },
+    
+    description: {
+      en: "Dr. Aravind Chandar is described as the elder son of the family. He received postgraduate training in general surgery and specialised training related to in vitro fertilisation (IVF), including in London. Dr. Aravind's IVF is reported to have more than 30 branches and to have achieved a Guinness World Records-related distinction in 2019.",
+      ta: "டாக்டர் அரவிந்த் சந்தர் குடும்பத்தின் மூத்த மகனாகக் குறிப்பிடப்படுகிறார். இவர் பொது அறுவை சிகிச்சையில் முதுகலைப் பயிற்சி பெற்றதுடன் லண்டன் உள்ளிட்ட இடங்களில் செயற்கைக் கருத்தரிப்பு (IVF) தொடர்பான சிறப்புப் பயிற்சிகளையும் பெற்றுள்ளார். டாக்டர் அரவிந்த்ஸ் IVF நிறுவனம் 3௦-க்கும் மேற்பட்ட கிளைகளைக் கொண்டுள்ளதாகவும் 2019 - ஆம் ஆண்டில் கின்னஸ் உலகச் சாதனையுடன் தொடர்புடைய சாதனையைப் படைத்த்துள்ளார்.&#x20;",
+      hi: "डॉ. अरविंद चंदर को परिवार का बड़ा बेटा बताया गया है। उन्होंने जनरल सर्जरी में स्नातकोत्तर प्रशिक्षण के साथ लंदन सहित विभिन्न स्थानों पर इन-विट्रो फर्टिलाइजेशन (IVF) से संबंधित विशेष प्रशिक्षण प्राप्त किया है। बताया गया है कि डॉ. अरविंद्स IVF की 30 से अधिक शाखाएँ हैं और 2019 में इसका गिनीज़ वर्ल्ड रिकॉर्ड्स से संबंधित एक उल्लेखनीय उपलब्धि से जुड़ाव रहा।",
+    },
+    quote: {
+      en: "The wondrous point where science and spiritual wisdom meet, the walking deity who makes it bloom on earth — the doctor.",
+      ta: "விஞ்ஞானமும் மெய்ஞானமும் இணையும் அற்புதப் புள்ளி,\nஅதை மண்ணில் மலரவைக்கும் நடமாடும் தெய்வம் மருத்துவர்",
+      hi: "वह अद्भुत बिंदु जहाँ विज्ञान और आध्यात्मिक ज्ञान मिलते हैं; वह चलते-फिरते देवतुल्य चिकित्सक जो इसे धरती पर साकार करते हैं।",
+    },
+  },
+  
 } satisfies Record<string, {
   name: Record<Language, string>;
   role: Record<Language, string>;
