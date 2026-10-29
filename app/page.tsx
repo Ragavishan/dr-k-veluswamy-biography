@@ -4,6 +4,7 @@
 import { useCallback, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import IntroScreen from "@/components/IntroScreen";
 import {
   Menu,
   X,
@@ -443,6 +444,8 @@ const topicForInstitution = (item: (typeof institutions)[number]) => {
   ];
 
   return (
+    <>
+    <IntroScreen />
     <main className="min-h-screen bg-[#f7f8fa] text-[#202122] antialiased">
       {/* Simple Wikipedia-inspired header */}
       <header className="sticky top-0 z-40 border-b border-[#e2e6ec] bg-white/95 shadow-sm backdrop-blur-md">
@@ -884,5 +887,6 @@ const topicForInstitution = (item: (typeof institutions)[number]) => {
         </div>
       )}
     </main>
+    </>
   );
 }
