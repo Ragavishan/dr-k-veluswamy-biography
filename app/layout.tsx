@@ -1,6 +1,7 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
+import ContentProtection from "@/components/ContentProtection";
 
 export const metadata: Metadata = {
   title: "Dr. K. Veluswamy | Biography",
@@ -15,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body><ContentProtection>{children}</ContentProtection></body>
     </html>
   );
 }

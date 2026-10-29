@@ -50,3 +50,36 @@ body {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Discourage casual text copying without changing the design */
+.protected-content {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Keep form fields usable */
+.protected-content input,
+.protected-content textarea,
+.protected-content select,
+.protected-content [contenteditable="true"],
+.protected-content [data-allow-copy="true"] {
+  -webkit-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
+}
+
+/* Prevent dragging images to save them casually */
+.protected-content img {
+  -webkit-user-drag: none;
+}
+
+/* Keep interactive controls working normally */
+.protected-content button,
+.protected-content a,
+.protected-content input,
+.protected-content textarea,
+.protected-content select {
+  -webkit-user-select: auto;
+  user-select: auto;
+}

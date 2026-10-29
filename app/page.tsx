@@ -5,6 +5,7 @@ import { useCallback, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import IntroScreen from "@/components/IntroScreen";
+import ContentProtection from "@/components/ContentProtection";
 import {
   Menu,
   X,
