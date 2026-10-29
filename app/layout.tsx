@@ -6,7 +6,7 @@ import ContentProtection from "@/components/ContentProtection";
 export const metadata: Metadata = {
   title: "Dr. K. Veluswamy | Biography",
   description:
-    "Explore the life, medical career, educational initiatives, and institutional journey of Dr. K. Veluswamy.",
+    "The life journey of Dr. K. Veluswamy.",
 };
 
 export default function RootLayout({
