@@ -724,21 +724,6 @@ const topicForInstitution = (item: (typeof institutions)[number]) => {
                   </div>
                 </article>
 
-                {/* Dr. Aravind Chandar */}
-                <article className="group flex min-w-0 flex-col overflow-hidden rounded-xl border border-[#e2e8f0] bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
-                  <img
-                    src="https://www.draravindsivf.com/uploads/experts/medium_1648710401.jpg"
-                    alt="Dr. Aravind Chandar"
-                    className="h-56 w-full bg-[#f1f5f9] object-cover object-top transition-transform duration-300 group-hover:scale-[1.02] sm:h-52"
-                    loading="lazy"
-                  />
-                  <div className="flex flex-1 flex-col p-4">
-                    <h3 className="font-semibold"><button type="button" className={placeButton} onClick={() => setActiveFamily("aravind")}>Dr. Aravind Chandar</button></h3>
-                    <p className="mt-1 text-sm text-[#54595d] text-justify">{t("elderRole")}</p>
-                    <button type="button" className={`${placeButton} mt-3 self-start text-sm`} onClick={() => setActiveFamily("aravind")}>{t("readProfile")}</button>
-                  </div>
-                </article>
-
                 {/* Dr. Arun Muthuvel */}
                 <article className="group flex min-w-0 flex-col overflow-hidden rounded-xl border border-[#e2e8f0] bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg ">
                   <img
@@ -749,10 +734,27 @@ const topicForInstitution = (item: (typeof institutions)[number]) => {
                   />
                   <div className="flex flex-1 flex-col p-4">
                     <h3 className="font-semibold"><button type="button" className={placeButton} onClick={() => setActiveFamily("arun")}>Dr. Arun Muthuvel</button></h3>
-                    <p className="mt-1 text-sm text-[#54595d] text-justify">{t("youngerRole")}</p>
+                    <p className="mt-1 text-sm text-[#54595d] text-justify">{t("elderRole")}</p>
                     <button type="button" className={`${placeButton} mt-3 self-start text-sm`} onClick={() => setActiveFamily("arun")}>{t("readProfile")}</button>
                   </div>
                 </article>
+
+                {/* Dr. Aravind Chandar */}
+                <article className="group flex min-w-0 flex-col overflow-hidden rounded-xl border border-[#e2e8f0] bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
+                  <img
+                    src="https://www.draravindsivf.com/uploads/experts/medium_1648710401.jpg"
+                    alt="Dr. Aravind Chandar"
+                    className="h-56 w-full bg-[#f1f5f9] object-cover object-top transition-transform duration-300 group-hover:scale-[1.02] sm:h-52"
+                    loading="lazy"
+                  />
+                  <div className="flex flex-1 flex-col p-4">
+                    <h3 className="font-semibold"><button type="button" className={placeButton} onClick={() => setActiveFamily("aravind")}>Dr. Aravind Chandar</button></h3>
+                    <p className="mt-1 text-sm text-[#54595d] text-justify">{t("youngerRole")}</p>
+                    <button type="button" className={`${placeButton} mt-3 self-start text-sm`} onClick={() => setActiveFamily("aravind")}>{t("readProfile")}</button>
+                  </div>
+                </article>
+
+                
               </div>
             </section>
 
