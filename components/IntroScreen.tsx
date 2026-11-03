@@ -51,6 +51,14 @@ export default function IntroScreen() {
               draggable={false}
             />
 
+            {/* Mobile image */}
+            <img
+              src="/intro-book-mobile.png"
+              alt="Dr. K. Veluswamy Biography"
+              className="block sm:hidden absolute inset-0 h-full w-full object-contain object-center"
+              draggable={false}
+            />
+
             {/* Paper shadows */}
             <div className="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-black/35 to-transparent" />
             <div className="pointer-events-none absolute inset-y-0 right-0 w-[3%] bg-gradient-to-l from-black/20 to-transparent" />
